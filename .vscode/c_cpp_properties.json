@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "RISCV GCC CH32V",
+            "includePath": [
+                "${workspaceFolder}/inc/",
+                "${workspaceFolder}/drivers/",
+                "${workspaceFolder}/src/"
+            ],
+            "compilerPath": "/opt/wch/RISC-V Embedded GCC/bin/riscv-none-embed-gcc",
+            "cStandard": "gnu99",
+            "intelliSenseMode": "gcc-arm",
+            "compilerArgs": [
+                ""
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}"
+                ]
+            },
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}

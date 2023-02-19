@@ -106,7 +106,7 @@ int main(void)
 	 	}  	 	 		
   		delay_ms(500);
   		
-   		//Filled random rectangles 40x
+   		//Random color filled rectangles 40x
    	 	ili9341_fill(BLACK);
 	 	ili9341_puts(20,100,	"Random color fill", &TM_Font_11x18, WHITE, BLACK);
 	 	ili9341_puts(20,130,	"rectangle test 40x", &TM_Font_11x18, WHITE, BLACK);
